@@ -1,0 +1,73 @@
+/* GENERAL STYLING*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: #2e2f2f;
+	color:#fff;
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+   background-color: #fff;
+   color: #2e2f2f;
+   padding: 2px 10px 4px 10px;
+   cursor: pointer;
+}
+
+/* MAIN PAGE */
+
+.main-panel {
+	width: 100%;
+	margin: 0 auto;
+	/*text-align: center;*/
+	line-height: 1.5em;
+	display: inline-block;
+	float: left;
+	background-color: #2e2f2f;
+}
+
+.main-panel h1, .main-content h1{
+	color: #F2C45A;
+	font-weight: 400;
+}
+
+.main-panel h2{
+	color: #F2C45A;
+	font-weight: 300;
+	font-size:1em;
+}
+.main-panel p {
+	opacity: 0.9;
+}
+
+.main-panel-text{
+	margin-top: 200px;
+	text-align: center;
+}
+
+.main-panel-links{
+	line-height: 1em;
+}
+
+/* SIDE PANEL*/
+.content-panel{
+	float: left;
+	width: 65%;
+	display: none;
+	min-height:500px;
+	background-color: #fff;
+}
+
+.koach {
+	padding: 10px;
+}
